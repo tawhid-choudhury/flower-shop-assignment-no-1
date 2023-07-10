@@ -262,12 +262,6 @@ figcaption {
   flex-direction: column-reverse;
   justify-content: center;
 }
-.review-title {
-  padding: 15px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 800;
-}
 .person {
   width: 150px;
   height: 150px;
