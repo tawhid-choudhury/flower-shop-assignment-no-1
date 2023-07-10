@@ -12,6 +12,15 @@
   border-radius: 8px;
   border: none;
 }
+.btn2 {
+  margin-top: 30px 50px;
+  padding: 18px 31px;
+  background: #e55473;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+}
 .pink-color {
   color: #e55473;
 }
@@ -35,6 +44,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 /* banner styles */
@@ -140,7 +150,7 @@ figcaption {
   font-weight: 600;
   line-height: 35px;
 }
-/* sale section */
+/* sale section styles*/
 .sale {
   display: flex;
   align-items: center;
@@ -167,12 +177,48 @@ figcaption {
   font-weight: 400;
   line-height: 30px;
 }
-/* instagram section */
+/* instagram section styles*/
 .instagram-images {
   margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 25px;
-  margin-bottom: 500px; /*------------------------------------------------------ delete this */
+}
+/* deals section styles */
+.text-input {
+  margin-top: 30px;
+  padding: 20px 43px;
+  background: white;
+  border-radius: 8px;
+  border: none;
+  width: 700px;
+}
+.deals-main {
+  margin: 130px 240px 600px 240px;
+  padding: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.deals-title {
+  margin-top: 0px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.deals-description {
+  margin-top: 15px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
 }
