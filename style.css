@@ -22,6 +22,20 @@
   font-size: 40px;
   font-weight: 800;
 }
+.description {
+  margin-top: 25px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+}
+.general-title-and-description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 /* banner styles */
 .banner-container {
@@ -57,22 +71,6 @@
 }
 
 /* featured section styles */
-.feature-text {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.feature-title {
-}
-.feature-description {
-  margin-top: 25px;
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  width: 594px;
-}
 .feature-boxes {
   margin-top: 50px;
   display: flex;
@@ -170,3 +168,11 @@ figcaption {
   line-height: 30px;
 }
 /* instagram section */
+.instagram-images {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 500px; /*------------------------------------------------------ delete this */
+}
