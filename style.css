@@ -1,18 +1,28 @@
+/* Universal Styles */
 * {
   margin: 0px;
   padding: 0px;
   font-family: Lato;
 }
+.btn1 {
+  margin-top: 30px;
+  padding: 20px 43px;
+  background: #e55473;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
 
 /* banner styles */
 .banner-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 850px;
   padding: 50px 240px 0px 240px;
   padding-bottom: 0px;
   background-color: rgba(229, 84, 115, 0.1);
+  gap: 100px;
 }
 .banner-header {
   width: 708px;
@@ -35,11 +45,95 @@
   height: 800px;
   border-image-repeat: stretch;
 }
-.btn1 {
-  margin-top: 30px;
-  padding: 20px 43px;
-  background: #e55473;
-  color: white;
-  border-radius: 8px;
-  border: none;
+
+/* featured section styles */
+.feature-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.feature-title {
+  margin-top: 180px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.feature-description {
+  margin-top: 25px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+}
+.feature-boxes {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding-left: 240px;
+  padding-right: 240px;
+  gap: 25px;
+}
+.arch-box {
+  background-color: rgba(167, 33, 98, 0.15);
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-image {
+  align-self: self-end;
+}
+.box-image2 {
+  padding-bottom: 50px;
+}
+figcaption {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+#ab1 {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+#ab2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+#ab3 {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.feature-bottom-box {
+  margin: 130px 240px 0px 240px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.fbb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fbb-img {
+  width: 90px;
+  height: 90px;
+}
+.fbb-text {
+  margin-top: 25px;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
 }
