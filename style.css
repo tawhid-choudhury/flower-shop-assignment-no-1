@@ -12,6 +12,16 @@
   border-radius: 8px;
   border: none;
 }
+.pink-color {
+  color: #e55473;
+}
+.title {
+  margin-top: 180px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
 
 /* banner styles */
 .banner-container {
@@ -53,11 +63,6 @@
   flex-direction: column;
 }
 .feature-title {
-  margin-top: 180px;
-  color: #272727;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 800;
 }
 .feature-description {
   margin-top: 25px;
@@ -137,3 +142,31 @@ figcaption {
   font-weight: 600;
   line-height: 35px;
 }
+/* sale section */
+.sale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 186px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 130px;
+}
+.sale-text {
+  width: 594px;
+  text-align: center;
+}
+.sale-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 900;
+}
+.sale-description {
+  margin-top: 25px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* instagram section */
