@@ -326,6 +326,7 @@ figcaption {
   justify-content: center;
 }
 .review-input {
+  font-size: 18px;
   margin-top: 15px;
   padding: 20px 43px;
   background: rgba(229, 84, 115, 0.1);
@@ -334,18 +335,32 @@ figcaption {
   width: 350px;
 }
 .rate {
-  display: flex;
-  align-items: start;
-  /* flex-direction: column; */
-  justify-content: center;
-  text-align: center;
-  margin-top: 15px;
+  margin-top: 20px;
   padding: 20px 43px;
-  /* background: rgba(229, 84, 115, 0.1); */
+  background: rgba(229, 84, 115, 0.1);
   border-radius: 8px;
   border: none;
-  gap: 40px;
   width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.rate .star-widgit input {
+  display: none;
+}
+.star-widgit label {
+  font-size: 36px;
+  color: rgba(39, 39, 39, 0.6);
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+}
+.star-widgit input:not(:checked) ~ label:hover {
+  color: #e55473;
+}
+input:checked ~ label {
+  color: #e55473;
 }
 /* footer styles */
 footer {
